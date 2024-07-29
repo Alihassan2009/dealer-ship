@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+      height: 80px;
+      background-color: rgb(78, 52, 52);
+      color: #ffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.shop-section{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid #000000; */
+    height: 300px;
+    width: 24%;
+    background-color: #ffffff;
+    width: 250x; 
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
